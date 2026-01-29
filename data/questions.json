@@ -540,7 +540,7 @@
             1
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q32.jpg",
         "explanation": "輸入數據（質量、溫度）為「特徵 (Feature)」；預測目標（品質測試）為「標籤 (Label)」。選項 C 指溫度為標籤是錯誤的。順序 1-1-2。"
     },
     {
@@ -557,7 +557,7 @@
             1
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q33.jpg",
         "explanation": "「家庭收入」是預測依據，屬特徵 (1)；「房價類別」是預測目標，屬標籤 (2)。"
     },
     {
@@ -778,7 +778,7 @@
             1
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q46.jpg",
         "explanation": "預測目標 ColumnE 是數值，因此此任務屬於迴歸。 "
     },
     {
@@ -863,7 +863,7 @@
             1
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q51.jpg",
         "explanation": "A 選擇特徵資料行 (4) -> B 分割數據 (5) -> C 定型模型（價格屬迴歸，故選線性迴歸 3）。"
     },
     {
@@ -1577,7 +1577,7 @@
             1
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q93.jpg",
         "explanation": "框線」標註物體位置是物件偵測的核心特徵。 "
     },
     {
@@ -1730,7 +1730,7 @@
             4
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q102.jpg",
         "explanation": "識別並分類文本中的實體項目（日期、地點、人名、數值）即為實體辨識 (NER)。"
     },
     {
@@ -1747,7 +1747,7 @@
             2
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q103.jpg",
         "explanation": "供使用者對話輸入介面並回覆的交互系統即為聊天機器人。 "
     },
     {
@@ -2206,7 +2206,7 @@
             1
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q130.jpg",
         "explanation": "參數中包含尺寸 (size) 與風格 (style)，明顯為影像生成需求。"
     },
     {
@@ -2600,7 +2600,7 @@
             3,5
         ],
         "weight": 1,
-        "image": null,
+        "image": "images/q151.jpg",
         "explanation": "名字與姓氏與收入無邏輯相關；收入範圍是目標「標籤」；因此，教育程度與年齡是有效的「特徵」。"
     },
     {

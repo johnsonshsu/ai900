@@ -8,6 +8,7 @@ let timerInterval;
 let startTime = 0;
 let wrongQuestions = [];
 let answerOrder = 'original'; // 新增答案順序全域變數
+let showAnswerMode = false; // 新增：答題時顯示答案模式
 let answers = {}; // 新增：記錄每題最新作答狀態
 
 let examDuration = 60; // 單位：分鐘
@@ -251,6 +252,9 @@ function startQuiz() {
     // 讀取答案順序設定
     const orderRadio = document.querySelector('input[name="answer-order"]:checked');
     answerOrder = orderRadio ? orderRadio.value : 'original';
+    // 讀取顯示答案設定
+    const showAnswerCheckbox = document.getElementById('show-answer');
+    showAnswerMode = showAnswerCheckbox ? showAnswerCheckbox.checked : false;
     let countValue = document.getElementById('question-count').value;
     let count;
     if (countValue === 'all') {
@@ -477,6 +481,55 @@ function showQuestion() {
     }
 
     console.log('optionsForm.innerHTML:', optionsForm.innerHTML);
+
+    // 顯示答案模式：在選項下方直接顯示正確答案
+    if (showAnswerMode) {
+        const answerHint = document.createElement('div');
+        answerHint.id = 'answer-hint';
+        answerHint.style.marginTop = '12px';
+        answerHint.style.padding = '10px 16px';
+        answerHint.style.background = '#eaf7ea';
+        answerHint.style.borderLeft = '4px solid #27ae60';
+        answerHint.style.borderRadius = '4px';
+
+        if (q.type === 'multioption') {
+            // 多選下拉式：逐一顯示每個空格的正確答案
+            let hintHtml = '<span style="color:#27ae60;font-weight:bold;"><i class="fa-solid fa-lightbulb"></i> 正確答案：</span><br>';
+            for (let i = 0; i < q.options.length; i++) {
+                const optionTexts = q.options[i].split('|');
+                const correctIdx = q.answer[i] - 1; // 1-based 轉 0-based
+                hintHtml += `<span style="margin-left:8px;">選項 ${i + 1}：<b style="color:#2980b9;">${optionTexts[correctIdx]}</b></span><br>`;
+            }
+            answerHint.innerHTML = hintHtml;
+        } else {
+            // 單選/複選：顯示正確選項
+            const correctIdxArr = q.answer.map(a => a - 1);
+            const correctTexts = correctIdxArr.map(idx => {
+                const optObj = optionList.find(o => o.idx === idx);
+                const displayIndex = optionList.indexOf(optObj) + 1;
+                return `${displayIndex}. ${optObj ? optObj.opt : q.options[idx]}`;
+            });
+            answerHint.innerHTML = `<span style="color:#27ae60;font-weight:bold;"><i class="fa-solid fa-lightbulb"></i> 正確答案：</span><br><span style="color:#2980b9;font-weight:bold;">${correctTexts.join('<br>')}</span>`;
+        }
+
+        // 如果有解析也一併顯示
+        if (q.explanation && q.explanation.trim()) {
+            let processedExplanation = q.explanation.replace(/\\n/g, '\n');
+            if (processedExplanation.includes('<pre><code class="language-')) {
+                const parts = processedExplanation.split(/(<pre><code.*?>[\s\S]*?<\/code><\/pre>)/g);
+                const processedParts = parts.map(part => {
+                    if (part.startsWith('<pre><code')) return part;
+                    return formatBacktickText(part).replace(/\n/g, '<br>');
+                });
+                answerHint.innerHTML += `<div style="margin-top:8px;"><span style="color:#555;font-weight:bold;">解析：</span><br><span style="color:#555;">${processedParts.join('')}</span></div>`;
+            } else {
+                const formattedExplanation = formatBacktickText(processedExplanation);
+                answerHint.innerHTML += `<div style="margin-top:8px;"><span style="color:#555;font-weight:bold;">解析：</span><br><span style="color:#555;">${formattedExplanation.replace(/\n/g, '<br>')}</span></div>`;
+            }
+        }
+
+        optionsForm.appendChild(answerHint);
+    }
 
     // 移除舊的 <hr>，避免重複
     Array.from(optionsForm.querySelectorAll('hr')).forEach(hr => hr.remove());
