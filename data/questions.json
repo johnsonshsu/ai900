@@ -1,0 +1,3551 @@
+[
+    {
+        "id": 1,
+        "type": "single",
+        "question": "說明用以定型模型的資料來源是哪一項責任 AI 準則的範例? ",
+        "options": [
+            "隱私權與安全性",
+            "公平性",
+            "可靠性和安全性",
+            "透明性"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「透明度 (Transparency)」準則要求 AI 系統應具備可解釋性，這包括公開說明用於訓練（定型）模型的資料來源、演算法邏輯、系統限制，以及如何對預測結果負責。 "
+    },
+    {
+        "id": 2,
+        "type": "single",
+        "question": "公司正在探索語音辨識技術在其智慧型家用裝置中的使用。公司想要找出可能無意間透漏特定使用者群組的任何屏障。 這是下列何者責任 AI 的 Microsoft 指導準則範例? ",
+        "options": [
+            "權責",
+            "公平性",
+            "隱私權與安全性",
+            "包容性"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「包容性 (Inclusivity)」旨在確保 AI 技術能服務所有人，不論其背景、身體能力或語言特徵。識別並消除阻礙特定群組使用的屏障，旨在實現技術的普及與平等。 "
+    },
+    {
+        "id": 3,
+        "type": "single",
+        "question": "將 AI 工作負載類型與適當的案例依照順序進行配對。\r\n工作負載類型如下：\r\n1.異常偵測\r\n2.電腦視覺\r\n3.知識採礦\r\n4.自然語言處理作答區：\r\nA.___________回答退款及換貨問題的自動化聊天機器\r\nB.___________判斷相片中是否有人物\r\nC.___________判斷評論為正面或負面",
+        "options": [
+            "424",
+            "123",
+            "324",
+            "432"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 為「聊天機器人」，涉及文字對話理解，屬自然語言處理 (4)；B 為「影像人物識別」，屬電腦視覺 (2)；C 為「評論情緒分析」，屬自然語言處理 (4)。順序對應為 4-2-4。"
+    },
+    {
+        "id": 4,
+        "type": "single",
+        "question": "AI 系統不應反映用於為訓練系統的資料集偏差,是下列哪個 Microsoft 責任 AI 的準則? ",
+        "options": [
+            "權責性",
+            "公平性",
+            "包容性",
+            "透明度"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「公平性 (Fairness)」強調 AI 系統應平等對待所有人。若訓練資料包含社會偏差（如性別或種族偏見），模型會學到並放大這些不公，這違反了公平性準則。 "
+    },
+    {
+        "id": 5,
+        "type": "single",
+        "question": "您的網站有一個用來協助客戶的聊天機器人。\r\n您需要根據客戶在聊天機器人中鍵入的內容,偵測客戶何時感到沮喪。 \r\n您應該使用下列哪一種類型的 AI 工作負載? ",
+        "options": [
+            "迴歸",
+            "異常偵測",
+            "自然語言處理",
+            "電腦視覺答案："
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在 AI-900 考題邏輯中，將偵測情緒突然惡化或偏離正常的行為模式，常被歸類為「異常偵測 (Anomaly Detection)」。"
+    },
+    {
+        "id": 6,
+        "type": "single",
+        "question": "公司想要打造瓶罐回收機。此回收機必須能夠自動識別正確形狀的瓶罐,拒收所有其他項目。\r\n公司應該使用哪種 AI 工作負載? ",
+        "options": [
+            "自然語言處理",
+            "知識採礦",
+            "電腦視覺",
+            "異常偵測答案："
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "識別物體的「形狀」或「類別」是電腦視覺 (Computer Vision) 的核心功能。 "
+    },
+    {
+        "id": 7,
+        "type": "single",
+        "question": "預測貸款是否償還的銀行系統是哪個類型的機器學習範例?",
+        "options": [
+            "分類",
+            "叢集",
+            "迴歸",
+            "以上皆非"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "預測「會/不會」（二元結果）是一個典型的分類 (Classification) 問題。 "
+    },
+    {
+        "id": 8,
+        "type": "single",
+        "question": "當重要欄位包含不尋常或缺少值時,確保 AI 系统不會提供預測,是負責任 AI 的什麼準則?",
+        "options": [
+            "包容性",
+            "隱私權與安全性",
+            "可靠性與安全性",
+            "透明度"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "確保系統在面臨異常或不完整資料時不提供不正確的預測，維護系統穩定性，屬於「可靠性與安全性 (Reliability and Safety)」。"
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "question": "您要建置 AI 系統,系統該包含哪項工作以協助服務符合 Microsoft 責任 Ai 透明度準則?",
+        "options": [
+            "確定定型資料集具有母體代表性。",
+            "提供文件以利開發人員偵錯程式碼。",
+            "以確保服務能根據需求調整。",
+            "確定所有視覺效果都有可供螢幕助讀程式讀取的相關聯文字。"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「透明度」要求系統決策過程可被理解。提供開發文件說明程式碼與模型邏輯，符合此準則。 "
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "question": "建立錄音的文字記錄是下列何者的範例?",
+        "options": [
+            "電腦視覺工作負載",
+            "知識採礦工作負載",
+            "自然語言處理(NLP)工作負載",
+            "生成式 AI 工作負載"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "語音轉文字（Speech-to-Text）處理人類語言，屬於自然語言處理 (NLP)。 "
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "question": "將 AI 工作負載類型與適當的案例依照順序進行配對。 \r\n工作負載類型如下： \r\n1.權責\r\n2.公平性\r\n3.包容性\r\n4.隱私權和安全性\r\n5.可靠性和安全性\r\n6.透明度案例：\r\nA.____________必須記錄決策流程讓人員核實\r\nB.____________只有相關人員可以看到個人資訊\r\nC.____________輔助技術使用者須能存取",
+        "options": [
+            "643",
+            "543",
+            "651",
+            "243"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 記錄流程供核實屬「透明度 (6)」；B 客戶隱私屬「隱私權和安全性 (4)」；C 輔助技術支援屬「包容性 (3)」。順序為 6-4-3。 "
+    },
+    {
+        "id": 12,
+        "type": "single",
+        "question": "您有一些儲存成文字檔案的保險理賠報表。您需要從報表中擷取關鍵字詞以產生摘要。\r\n您應該使用下列哪一種類型的 AI 工作負載?",
+        "options": [
+            "異常偵測",
+            "知識採礦",
+            "電腦視覺",
+            "自然語言處理"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "從文字檔案中進行「關鍵字擷取」與「文本摘要」是自然語言處理 (NLP) 的核心功能。"
+    },
+    {
+        "id": 13,
+        "type": "single",
+        "question": "下列哪一項敘述是 Microsoft 責任 AI 準則的範例?",
+        "options": [
+            "AI 系統必須只能公開提供的資料",
+            "AI 系統必須保障公司的利益",
+            "AI 系統必須易於理解",
+            "AI 系統必須將個人詳細資料公開"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「易於理解」對應了「透明度」，即 AI 系統不應是完全無法解釋的「黑盒子」。"
+    },
+    {
+        "id": 14,
+        "type": "single",
+        "question": "可以回答「台積電股票價格是多少?」這種問題的智慧型裝置是哪一種 AI 工作負載的範例?",
+        "options": [
+            "異常偵測",
+            "自然語言處理",
+            "電腦視覺",
+            "知識採礦"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "理解語音查詢、檢索內容並回答，這整套流程屬於自然語言處理 (NLP)。 "
+    },
+    {
+        "id": 15,
+        "type": "single",
+        "question": "開發 AI 自動駕駛汽車系統時,應套用哪個 Microsoft 責任 AI 的準則,以確保系統在生命週期內維持一致的作業?",
+        "options": [
+            "公平性",
+            "權責性",
+            "可靠性和安全性",
+            "包容性"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「一致的作業」與「生命週期安全」直接對應「可靠性與安全性」。"
+    },
+    {
+        "id": 16,
+        "type": "single",
+        "question": "你正在開發一套系統以預測英國駕駛的保險價格。\r\n你需要盡量將系統的非預期偏差降至最低。\r\n請你應該採取什麼措施?",
+        "options": [
+            "取得完全隨機的定型樣本",
+            "使用全球保險公司的資料建立定型資料集",
+            "從資料中移除受保護特性的相關資訊,然後再進行取樣 ",
+            "取得代表英國人口的定型樣本"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "為了確保「公平性」並減少偏差，訓練資料必須準確代表目標群體（英國駕駛者）的特徵分布。"
+    },
+    {
+        "id": 17,
+        "type": "single",
+        "question": "從大量非結構化資料中擷取資料間的關聯性,是哪一種 AI 工作負載類型?",
+        "options": [
+            "知識採礦",
+            "電腦視覺",
+            "自然語言處理(NLP)",
+            "異常偵測"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「知識採礦 (Knowledge Mining)」專門處理如何從大量非結構化資料（如合約、文件、圖片）中自動識別實體並建立關聯結構。"
+    },
+    {
+        "id": 18,
+        "type": "single",
+        "question": "在使用生成式 AI 的聊天解決方案中實作篩選以封鎖有害內容是 Microsoft 負責任 AI 準則的範例。",
+        "options": [
+            "權責性",
+            "隱私權和安全性",
+            "公平性",
+            "透明度"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "實作內容篩選器以防範有害輸出，旨在保護使用者安全與隱私，屬於「隱私權與安全性」。"
+    },
+    {
+        "id": 19,
+        "type": "single",
+        "question": "下列哪一項敘述是 Microsoft 責任 Al 準則的範例?",
+        "options": [
+            "AI 系統必須透明且包容",
+            "AI 系統必須保障公司的利益",
+            "AI 系統必須只使用公開提供的資料",
+            "AI 系統必須將個人詳細資料公開"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「透明度」與「包容性」皆為微軟責任 AI 的六大準則。"
+    },
+    {
+        "id": 20,
+        "type": "single",
+        "question": "請問您應該使用哪一種 Azure Al 工作負載,根據文章的文字創作插圖?",
+        "options": [
+            "電腦視覺",
+            "生成式 AI",
+            "自然語言處理",
+            "Azure Al 文件智慧服務"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「文字生成影像 (Text-to-Image)」是生成式 AI (Generative AI) 的典型案例（如 DALL-E）。"
+    },
+    {
+        "id": 21,
+        "type": "single",
+        "question": "以下何者是 Microsoft 負責任 AI 準則的範例?",
+        "options": [
+            "AI 系統應該讓個人詳細資料方便存取",
+            "AI 系統應該屬於公眾領域",
+            "AI 系統應該是安全的,並且尊重隱私權",
+            "AI 系統應該保障開發人員的利益"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「可靠性與安全性」及「隱私權與安全性」是責任 AI 的支柱。"
+    },
+    {
+        "id": 22,
+        "type": "single",
+        "question": "將 AI 解決方案與適當的工作依照順序進行配對。\r\nAI 解決方案如下：\r\n1.電腦視覺\r\n2.生成式 AI\r\n3.知識採礦\r\n4.自然語言處理作答區\r\n( )A.根據關鍵字建立社交媒體貼文\r\n( )B.從社交媒體貼文中擷取關鍵字\r\n( )C.從掃描文件中擷取文字",
+        "options": [
+            "241",
+            "234",
+            "214",
+            "341"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 創作內容屬生成式 AI (2)；B 文字處理屬 NLP (4)；C 文件影像文字提取 (OCR) 屬電腦視覺 (1)。順序為 2-4-1。"
+    },
+    {
+        "id": 23,
+        "type": "single",
+        "question": "詢問聊天機器人是否即將下雨,是哪一種工作?",
+        "options": [
+            "異常偵測",
+            "電腦視覺",
+            "自然語言處理",
+            "預測"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "與聊天機器人的所有文字互動皆屬於自然語言處理 (NLP)。"
+    },
+    {
+        "id": 24,
+        "type": "single",
+        "question": "將 AI 服務與適當的工作依照順序進行配對。\r\nAI 服務如下：\r\n1.文件智慧服務\r\n2.電腦視覺\r\n3.生成式 AI\r\n4.知識採礦\r\n作答區：\r\n( )A.從入院表單中取得資料\r\n( )B.自動生成每月行銷文案的草稿\r\n( )C.分析空照相片區別淹水區域",
+        "options": [
+            "132",
+            "231",
+            "412",
+            "243"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 表單結構化資料提取屬文件智慧服務 (1)；B 文字內容生成屬生成式 AI (3)；C 影像內容識別屬電腦視覺 (2)。順序為 1-3-2。"
+    },
+    {
+        "id": 25,
+        "type": "single",
+        "question": "使用未經許可取得資料建立的自然語言處理(NLP)模型。此違規行為屬於下面哪項 Microsoft 責任 AI 的準則?",
+        "options": [
+            "可靠性和安全性",
+            "透明度",
+            "隱私權和安全性",
+            "包容性"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "數據收集必須合法且獲得授權。未經許可使用私人數據屬於隱私權與安全性的違規。"
+    },
+    {
+        "id": 26,
+        "type": "single",
+        "question": "將工作與適當的機器學習模型依照順序進行配對。\r\n模型類型如下：\r\n1.分類\r\n2.迴歸\r\n3.叢集\r\n作答區：\r\nA.__ 根據乘客資料指派類別\r\nB.__ 根據距離預測燃油量\r\nC.__ 根據人口統計預測是否錯過航班",
+        "options": [
+            "321",
+            "123",
+            "213",
+            "231"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 分組相似實體屬叢集 (3)；B 預測數值量屬迴歸 (2)；C 預測二元標籤（是/否）屬分類 (1)。順序為 3-2-1。 "
+    },
+    {
+        "id": 27,
+        "type": "single",
+        "question": "下例哪個模型可用以預測拍賣品售價?",
+        "options": [
+            "分類",
+            "叢集",
+            "迴歸",
+            "以上皆非"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「售價」是連續的數值。預測連續型數值的機器學習任務稱為「迴歸 (Regression)」。 "
+    },
+    {
+        "id": 28,
+        "type": "single",
+        "question": "您該使用哪種機器學習類型預測下個月售出的禮品卡數量?",
+        "options": [
+            "分類",
+            "迴歸",
+            "叢集",
+            "以上皆非"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "銷售「數量」是連續型數值，對應迴歸任務。"
+    },
+    {
+        "id": 29,
+        "type": "single",
+        "question": "您需要預測某個區域的動物族群規模。您應該使用下列哪一種 Azure Machine Learning 類型?",
+        "options": [
+            "分類",
+            "迴歸",
+            "叢集",
+            "以上皆非"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「族群規模」為數值，預測數值即選用迴歸。 "
+    },
+    {
+        "id": 30,
+        "type": "single",
+        "question": "您想預測某國家公園內動物的數量,應該使用下列哪種類型的 Azure Machine Learning 模型類型? ",
+        "options": [
+            "分類",
+            "迴歸",
+            "叢集",
+            "以上皆非"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「數量」是數值，預測連續數值的工作屬於迴歸。"
+    },
+    {
+        "id": 31,
+        "type": "single",
+        "question": "您想找出具有相似購物習慣的人員族群,該使用下列哪種機器學習類型?",
+        "options": [
+            "分類",
+            "迴歸",
+            "叢集",
+            "以上皆非"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在沒有既定標籤的情況下，將具有相似特徵的資料進行分組，這稱為「叢集 (Clustering)」。 "
+    },
+    {
+        "id": 32,
+        "type": "single",
+        "question": "有一個 Azure Machine Learning 模型的定型資料集共有 45,000 筆記錄,該模型可以預測產品的品質。下表為其資料的範例:\r\n請根據上面資料回答下列敘述是否正確，1. 是、2. 否: \r\n(  )A.「質量(公斤)」為特徵。\r\n(  )B.「品質測試」為標籤。\r\n(  )C.「溫度(C)」為標籤。",
+        "options": [
+            "112",
+            "121",
+            "212",
+            "222"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "輸入數據（質量、溫度）為「特徵 (Feature)」；預測目標（品質測試）為「標籤 (Label)」。選項 C 指溫度為標籤是錯誤的。順序 1-1-2。"
+    },
+    {
+        "id": 33,
+        "type": "single",
+        "question": "您計劃使用下面資料集,訓練一個預測房價類別的模型。請問家庭收入和房價類別分別屬於下列何者?下表為其資料的範例:\r\n1.特徵(功能)、2.標籤 \r\n(  )A. 家庭收入\r\n(  )B. 房價類別",
+        "options": [
+            "12",
+            "21",
+            "以上皆是",
+            "以上皆非"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「家庭收入」是預測依據，屬特徵 (1)；「房價類別」是預測目標，屬標籤 (2)。"
+    },
+    {
+        "id": 34,
+        "type": "single",
+        "question": "關於機器學習的過程,應如何分割用於訓練和評估的資料?",
+        "options": [
+            "用特徵進行訓練,標籤則用來進行評估",
+            "用標籤進行訓練,特徵則用來進行評估",
+            "將資料隨機分割為訓練資料行和評估資料行",
+            "將資料隨機分割為訓練資料列和評估資料列"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "應將原始數據集的「資料列（Records）」隨機分割，一部分用於訓練模型，另一部分用於評估模型效能。"
+    },
+    {
+        "id": 35,
+        "type": "single",
+        "question": "應該如何使用 Azure Machine Learning 設計工具建立叢集模型並評估該模型?",
+        "options": [
+            "用將原始資料集分割成特徵和標籤資料集,使用特徵資料集進行評估",
+            "將原始資料集分割成定型和測試資料集,使用測試資料集進行評估",
+            "將原始資料集分割成定型和測試資料集,使用定型資料集進行評估",
+            "使用原始資料集進行定型和評估。"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "評估模型時必須使用模型未曾看過的「測試資料集」，才能真實反映模型性能。"
+    },
+    {
+        "id": 36,
+        "type": "single",
+        "question": "您有一個資料集,其中包含指定時間內發生的計程車行程訊息,如下列選項所示。您需要訓練一個模型來預測計程車行程的費用，應該用什麼作為標籤?",
+        "options": [
+            "各計程車行程的車費",
+            "各計程車行程的單程距離",
+            "資料集中的計程車行程數",
+            "各計程車行程的單程 ID"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「標籤 (Label)」是想要預測的目標結果。預測「費用」，則歷史資料中的「車費」即為標籤。 "
+    },
+    {
+        "id": 37,
+        "type": "single",
+        "question": "使用上次的消費日期, 消費頻率、消費金額(RFM)值, 來識別客戶群中的客層, 為下列何種機器學習模型的範例?",
+        "options": [
+            "分類",
+            "迴歸",
+            "叢集",
+            "正規化"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "識別客層即將具有相似行為特徵（RFM）的客戶分組，屬「叢集」。"
+    },
+    {
+        "id": 38,
+        "type": "single",
+        "question": "想要使用 Azure Machine Learning 設計工具部署機器學習模型,您應該依序執行下列哪四項動作?\r\n1.內嵌與準備資料集\r\n2.定型模型\r\n3.對驗證資料集評估模型\r\n4.對原始資料集評估模型\r\n5.將資料隨機分割",
+        "options": [
+            "1523",
+            "1423",
+            "2543",
+            "2534"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "正確流程為：1 內嵌 -> 5 分割 -> 2 定型 -> 3 評估。"
+    },
+    {
+        "id": 39,
+        "type": "single",
+        "question": "在 Azure Machine Learning 工作室設計工具中,您可以使用下列何者,以探索潛在特徵資料行中值的分佈?",
+        "options": [
+            "Normalize Data 模組",
+            "Select Columns in Dataset 模組",
+            "資料集輸出視覺化特徵",
+            "評估結果視覺化特徵"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在設計工具中，您可以點擊模組的輸出點並選擇「Visualize (視覺化)」，以直觀查看資料行中的數值分佈與統計特性。"
+    },
+    {
+        "id": 40,
+        "type": "single",
+        "question": "您必須利用現有的資料集建立訓練資料集和驗證資料集。您應該使用 Azure Machine Learning 設計工具的哪些模組?",
+        "options": [
+            "選取資料集中的資料行",
+            "合併資料",
+            "分割資料",
+            "新增資料列"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「分割資料 (Split Data)」模組專門用於將一個大資料集拆分為訓練集與測試/驗證集。"
+    },
+    {
+        "id": 41,
+        "type": "single",
+        "question": "評估模型效能時,下列何者使用 0 和 1 值的網格顯示預測和實際的正負值?",
+        "options": [
+            "AUC 計量",
+            "混淆矩陣",
+            "ROC 曲線",
+            "閾值"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「混淆矩陣 (Confusion Matrix)」是一個矩陣，顯示模型預測類別與實際類別的對照"
+    },
+    {
+        "id": 42,
+        "type": "single",
+        "question": "機器學習建立迴歸模型時,標籤應該使用哪種資料型別?",
+        "options": [
+            "布林值",
+            "日期時間",
+            "數值",
+            "文字"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "迴歸的目標是預測具體、連續的數值。"
+    },
+    {
+        "id": 43,
+        "type": "single",
+        "question": "針對下列何者,您可使用資料集的其中一部分來準備機器學習模型並保持資料平衡,以驗證結果?",
+        "options": [
+            "時間限制",
+            "特徵工程",
+            "MLflow 模型",
+            "模型定型"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在模型定型（訓練）過程中，會保留一部分數據不參與訓練，專門用來平衡並驗證定型結果。 "
+    },
+    {
+        "id": 44,
+        "type": "single",
+        "question": "Azure Machine Learning 設計工具可讓您建立機器學習模型,是藉由下列何者?",
+        "options": [
+            "在視覺效果畫布上新增與連結模組",
+            "自動執行一般資料準備工作",
+            "自動選取演算法以建置最精確的模型",
+            "使用 Code First 筆記本體驗"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "設計工具是低程式碼工具，透過拖放模組到畫布並連線來建立運算管線。"
+    },
+    {
+        "id": 45,
+        "type": "single",
+        "question": "下列何者會針對指定的計算目標執行工作,並且為實驗和工作流程進行系統化追蹤?",
+        "options": [
+            "元件",
+            "資料集",
+            "管線",
+            "Azure Machine Learning 作業"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「作業 (Job)」是 Azure ML 執行任務的基本單位。"
+    },
+    {
+        "id": 46,
+        "type": "single",
+        "question": "資料集包含下圖資料行：\r\n名稱      類型\r\nColumnA  整數\r\nColumnB  數值\r\nColumnC  數值\r\nColumnD  數值\r\nColumnE  數值\r\n\r\n你有一個根據其他數值資料行預測 ColumnE 值的機器學習模型。請問是下列哪一種模型?",
+        "options": [
+            "迴歸",
+            "分類",
+            "叢集",
+            "以上皆非"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "預測目標 ColumnE 是數值，因此此任務屬於迴歸。 "
+    },
+    {
+        "id": 47,
+        "type": "single",
+        "question": "您想要使用 Azure Machine Learning 工作室與自動化機器學習(自動化 ML),建置一個模型並加以訓練。您應該先建立下列哪一項?",
+        "options": [
+            "Jupyter Notebook",
+            "資料集",
+            "已註冊的資料集",
+            "Machine Learning 設計工具管線"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在啟動自動化 ML 之前，必須先將數據註冊為「資料集 (Data Asset)」。"
+    },
+    {
+        "id": 48,
+        "type": "single",
+        "question": "請問您應該採取什麼措施以減少機器學習分類模型所產生的誤判為真之數目?",
+        "options": [
+            "增加定型反覆運算的數目",
+            "修改有利於錯誤否定的閾值",
+            "修改有利於誤判為真的閾值",
+            "在定型資料中納入測試資料"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "調整判斷閾值 (Threshold) 可以改變模型的決策標準。若要減少誤報（誤判為真），需提高判定為「真」的標準。"
+    },
+    {
+        "id": 49,
+        "type": "single",
+        "question": "您使用自動化機器學習使用者介面(UI) 建置機器學習模型。您必須確保此模型符合 Microsoft 責任 Al 透明度準則。試問您應該如何做?",
+        "options": [
+            "將並行反覆運算上限設為 (0)",
+            "啟用最佳解釋模型",
+            "將驗證類型設為 自動",
+            "將主要計量設為 精確度"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「模型解釋性」能讓用戶了解模型特徵如何影響預測，符合透明度準則。"
+    },
+    {
+        "id": 50,
+        "type": "single",
+        "question": "你需要追蹤數個使用 Azure Machine Learning 進行訓練的模型版本,請問您該怎麼做?",
+        "options": [
+            "解釋模型",
+            "註冊模型",
+            "佈建推斷叢集",
+            "註冊訓練資料"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "將訓練好的模型進行「註冊 (Register Model)」後，系統會自動賦予版本號進行管理。"
+    },
+    {
+        "id": 51,
+        "type": "single",
+        "question": "您需要使用 Azure Machine Learning 設計工具建置一個能預測單車價格的模型, 請問下圖 A、B、C 中應該使用哪種模組類型来完成此模型\r\n1.轉換為 CSV   2.K 均值叢集  3.線性迴歸\r\n4.選擇資料集中的資料行  5.分割資料  6.摘要資料",
+        "options": [
+            "453",
+            "236",
+            "462",
+            "315"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 選擇特徵資料行 (4) -> B 分割數據 (5) -> C 定型模型（價格屬迴歸，故選線性迴歸 3）。"
+    },
+    {
+        "id": 52,
+        "type": "single",
+        "question": "您有一個資料集,包含銷售資料,並定義了客戶類型標籤。您需要建立一個模型以根據銷售資料分類客戶類型。\r\n您應該使用哪種機器學習類型?",
+        "options": [
+            "分類",
+            "叢集",
+            "迴歸",
+            "-"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "題目已給出「客戶類型標籤」且目的是預測類別，這屬於監督式學習中的分類。"
+    },
+    {
+        "id": 53,
+        "type": "single",
+        "question": "下列何者可以用来在實際執行環境中裝載自動化機器學習(自動化 ML)模型?",
+        "options": [
+            "Azure Data Factory",
+            "Azure 自動化",
+            "Azure Kubernetes Service (AKS)",
+            "Azure Logic Apps"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "AKS 是建議用於生產級部署、可高度縮放的推斷計算目標。"
+    },
+    {
+        "id": 54,
+        "type": "single",
+        "question": "您有一個資料集,包含了燃油樣本的實驗資料。您需要根據測量的密度預測可從樣本中取得的能量(千焦耳)。\r\n您應該使用下列哪一種類型的 AI 工作負載?",
+        "options": [
+            "分類",
+            "叢集",
+            "迴歸",
+            "以上皆非"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "能量值（千焦耳）是連續數值，預測數值的工作皆屬迴歸。"
+    },
+    {
+        "id": 55,
+        "type": "single",
+        "question": "您有一個資料集。您需要建置一個 Azure Machine Learning 分類模型來識別瑕疵產品。您應該先採取什麼措施?",
+        "options": [
+            "載入資料集",
+            "建立叢集模型",
+            "將資料分割成定型和測試資料集",
+            "建立分類模型"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "無論進行何種機器學習任務，第一個物理步驟永遠是獲取並載入資料集。 "
+    },
+    {
+        "id": 56,
+        "type": "single",
+        "question": "您有一個 Azure Machine Learning 管線,其中包含一個分割資料模組。分割資料模組會輸出至定型模型模組和評分模型模組。\r\n以下何者為分割資料模組的功能? ",
+        "options": [
+            "建立定型和驗證資料集",
+            "選取必須包含在模型中的資料行",
+            "轉移具有缺少資料的記錄",
+            "調整數值變數,將它們保持在一致的數值範圍內"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「分割資料 (Split Data)」模組的功能是將一份資料按比例隨機拆分為訓練組與驗證/評分組。"
+    },
+    {
+        "id": 57,
+        "type": "single",
+        "question": "機器學習模型中,用來當做輸入使用的各組資料值稱為?",
+        "options": [
+            "特徵",
+            "函式",
+            "標籤",
+            "執行個體"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在機器學習術語中，輸入變數 (X) 被稱為特徵 (Features)，預測目標 (Y) 則稱為標籤 (Label)。"
+    },
+    {
+        "id": 58,
+        "type": "single",
+        "question": "從資料集中隨機抽取的子資料集,子資料集通常用於協助模型進行什麼任務?",
+        "options": [
+            "演算法",
+            "特徵",
+            "標籤",
+            "驗證"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "隨機抽取的子集（模型在訓練時未見過的）被用來評估模型表現，這稱為驗證 (Validation)。"
+    },
+    {
+        "id": 59,
+        "type": "single",
+        "question": "Jasper 需要確保模型準確度可進行驗證。請您要協助 Jasper 接下來做什麼?",
+        "options": [
+            "使用臨床資料訓練模型",
+            "使用自動化機器學習(自動化 ML)",
+            "將臨床資料分割成兩個資料集",
+            "使用臨床資料驗證模型"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "要進行準確度驗證，Jasper 必須先分割出一份獨立於訓練集之外的測試集。"
+    },
+    {
+        "id": 60,
+        "type": "single",
+        "question": "他需要根據汽車類型訓練自動化機器學習(自動化 ML)模型,以預測汽車銷售額。試問要使用下列哪項工作?",
+        "options": [
+            "自然語言處理",
+            "電腦視覺",
+            "預測時間序列",
+            "迴歸"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "雖然銷售額是數值，但針對具時間連續性的銷量預測，「預測時間序列 (Forecasting)」是更精確的 AutoML 選項。"
+    },
+    {
+        "id": 61,
+        "type": "single",
+        "question": "請將機器學習模型與適當的工作依照順序進行配對。\r\n模型如下：\r\n1.分類\r\n2.迴歸\r\n3.叢集\r\n作答區：\r\n(  )A.預測數值的監督式機器學習模型。 \r\n(  )B.預測類別的監督式機器學習模型。\r\n(  )C.根據特徵將相似實體進行分組,屬於非監督式機器學習模型。",
+        "options": [
+            "213",
+            "123",
+            "321",
+            "312"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 為迴歸 (2)；B 為分類 (1)；C 為叢集 (3)。組合順序 2-1-3。 "
+    },
+    {
+        "id": 62,
+        "type": "single",
+        "question": "小明有 Azure Machine Learning 模型會產生大量的錯誤否定。他需要在不重新訓練模型的情況下降低錯誤否定的數量。\r\n請問應該採取什麼措施? ",
+        "options": [
+            "調整閥值",
+            "增加訓練資料量",
+            "增加定型反覆運算的數目",
+            "使用其他機器學習模型"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在不重練模型的情況下，改變預測結果分佈最快的方法是調整「分類閾值 (Threshold)」。降低門檻可以減少遺漏的負面案例（但會增加誤判為真的情況）。"
+    },
+    {
+        "id": 63,
+        "type": "single",
+        "question": "在機器學習的過程中,您何時該檢開評估計量?",
+        "options": [
+            "使用驗證資料測試模型之後",
+            "清理資料之後",
+            "定型模型之前",
+            "選擇模型的類型之前"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "必須先跑完推論並獲得預測結果，對比實際值後才能計算並檢閱評估計量。 "
+    },
+    {
+        "id": 64,
+        "type": "single",
+        "question": "根據接單數,下列哪一項可用來預測外送員將會加班的時數?",
+        "options": [
+            "分類",
+            "叢集",
+            "迴歸",
+            "-"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「加班時數」是連續的數值。預測此標籤的工作屬於迴歸。"
+    },
+    {
+        "id": 65,
+        "type": "single",
+        "question": "請問哪一個電腦視覺功能可以為數位相片產生自動標題?",
+        "options": [
+            "描述影像",
+            "偵測物件",
+            "辨識文字",
+            "找出感興趣的區域"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「描述影像 (Describe Image)」功能會利用自然語言生成一段簡短的標題句來解釋影像中的場景。"
+    },
+    {
+        "id": 66,
+        "type": "single",
+        "question": "包要籌辦一場慈善活動,其內容包含在 Twitter 上發佈人們帶著墨鏡的相片。\r\n需要確保符合下列 A、B 兩點要求的相片:\r\nA:包含一或多張臉部。\r\nB:包含至少一名戴著墨鏡的人。 \r\n您應該使用下列何者來分析影像? ",
+        "options": [
+            "Azure Al 電腦視覺服務中的 [描述影像] 作業",
+            "臉部服務中的(偵測) 作業",
+            "Azure: Al 電腦視覺服務中的 分析影像】作業",
+            "臉部服務中的 驗證】作業"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "臉部偵測可以識別臉部特徵並提取「配件 (Accessories)」屬性（如是否佩戴眼鏡）。"
+    },
+    {
+        "id": 67,
+        "type": "single",
+        "question": "下列何者可用於讀取輸送帶上的產品標籤？",
+        "options": [
+            "影像分類",
+            "影像處理",
+            "物件偵測",
+            "光學字元辨識(OCR)"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "辨識並提取影像中的「文字」字元，正是 OCR 的核心功能。"
+    },
+    {
+        "id": 68,
+        "type": "single",
+        "question": "下列何者用於在一個影像中識別多種項目?",
+        "options": [
+            "影像分類",
+            "影像描述",
+            "物件偵測",
+            "光學字元辨識(OCR)"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「物件偵測 (Object Detection)」負責找到物體並標出邊界框座標（位置）。"
+    },
+    {
+        "id": 69,
+        "type": "single",
+        "question": "您為社交媒體建置影像標記解決方案,以便自動標記朋友的影像。您應該使用哪一個 Azure Al 服務?",
+        "options": [
+            "臉部",
+            "文件智慧服務",
+            "電腦視覺",
+            "語言"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "識別特定「人物」的身分是屬於臉部辨識 (Face Recognition) 的範疇。"
+    },
+    {
+        "id": 70,
+        "type": "single",
+        "question": "請將電腦視覺工作負載類型依照順序進行配對。\r\n工作負載類型如下：\r\n1.影像分類\r\n2.物件偵測\r\n3.光學字元辨識\r\n\r\n作答區：\r\nA.產生影像標題。\r\nB.擷取電影海報影像中的電影名稱。 \r\nC.找到影像中的車輛。",
+        "options": [
+            "132",
+            "123",
+            "213",
+            "231"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 為影像分類/描述 (1)；B 為 OCR (3)；C 為物件偵測 (2)。順序為 1-3-2。"
+    },
+    {
+        "id": 71,
+        "type": "single",
+        "question": "當您在處理馬拉松賽跑比賽的相片時,為辨識相片中的跑者身份,必須請取跑者運動衫上的號碼,您應該使用哪種電腦視覺類型?",
+        "options": [
+            "影像分類",
+            "物件偵測",
+            "光學字元辨識",
+            "臉部辨識"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「號碼」是文字數據，識別影像中的文字數據需使用 OCR。"
+    },
+    {
+        "id": 72,
+        "type": "single",
+        "question": "下列何項服務的功能可從手寫文件中攝取文字?",
+        "options": [
+            "臉部辨識",
+            "物件偵測",
+            "光學字元辨識",
+            "影像分類"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Azure 的 OCR 服務在辨識印刷體與手寫文字方面皆具備高準確度。"
+    },
+    {
+        "id": 73,
+        "type": "single",
+        "question": "下列哪一個範例是 影片摘要計算某區域的動物數目?",
+        "options": [
+            "預測",
+            "異常偵測",
+            "知識採礦",
+            "電腦視覺"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "辨識影片內容物並計算數量是電腦視覺的工作負載。"
+    },
+    {
+        "id": 74,
+        "type": "single",
+        "question": "「判斷影像中汽車位置,並估計車與車之間的距離。」應該使用哪種電腦視覺類型? ",
+        "options": [
+            "臉部分析",
+            "物件偵測",
+            "影像分類",
+            "光學字元辨識"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "物件偵測能提供物體的座標座標，這是在估計物體間距時必要的基礎資訊。"
+    },
+    {
+        "id": 75,
+        "type": "single",
+        "question": "要建置一個會識別影像中名人的應用程式,應該使用哪一項服務?",
+        "options": [
+            "Azure OpenAI 服務",
+            "Azure Al 視覺",
+            "交談語言理解(CLU)",
+            "Azure Machine Learning"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Azure AI 視覺 (Vision) 內建有預先定型好的「名人偵測」功能。"
+    },
+    {
+        "id": 76,
+        "type": "single",
+        "question": "「若要識別影像中名人」應該使用哪種電腦視覺工作負載類型?",
+        "options": [
+            "臉部辨識",
+            "物件偵測",
+            "影像分類",
+            "光學字元辨識"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "辨識特定人物身分本質上屬於臉部辨識 (Face Recognition)。 "
+    },
+    {
+        "id": 77,
+        "type": "single",
+        "question": "您的公司專門製造小工具,您擁有 2000 張小工具的數位相片,若您需要在這些相片中識別出小工具的位置,則您應該使用下列何者?",
+        "options": [
+            "Azure Al 電腦視覺空間分析",
+            "Azure Al 自訂視覺物件偵測",
+            "Azure Al 電腦視覺影像分析",
+            "Azure Al 自訂視覺分類"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「特有的小工具」需要透過「自訂視覺 (Custom Vision)」來訓練專屬模型，而「找位置」則是物件偵測的任務。"
+    },
+    {
+        "id": 78,
+        "type": "single",
+        "question": "您可以透過下列何項服務,使用自己的影像來定型物件偵測模型?",
+        "options": [
+            "Azure Al 電腦視覺",
+            "Azure Al 自訂視覺",
+            "Azure Al 文件智慧服務",
+            "媒體用影片分析器"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "自訂視覺 (Custom Vision) 即是讓使用者上傳自有影像並定製專屬模型的服務。"
+    },
+    {
+        "id": 79,
+        "type": "single",
+        "question": "AI 解決方案可協助攝影師取得更佳人像相片,方法是提供下列哪一項臉部功能範例之曝光、雜訊與遮蔽的回饋?",
+        "options": [
+            "分析",
+            "偵測",
+            "辨識",
+            "-"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "對臉部影像的品質屬性（曝光、模糊度等）進行評估屬於分析階段。 "
+    },
+    {
+        "id": 80,
+        "type": "single",
+        "question": "您正在建置工具來處理零售商店的影像,使能夠識別競爭對手的產品。\r\n其解決方案是必須使用您公司提供的影像來定型,則您應該使用下列哪一項 Azure 認知服務?",
+        "options": [
+            "Azure Al 文件智慧服務",
+            "Azure Al 電腦視覺",
+            "臉部",
+            "Azure Al 自訂視覺"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "涉及「特定物體」且需使用「自有影像」進行模型定型，必選自訂視覺。"
+    },
+    {
+        "id": 81,
+        "type": "single",
+        "question": "下列哪項服務可用於擷取駕照上的資訊以填入資料庫中?",
+        "options": [
+            "Azure Al 電腦視覺",
+            "交談語言理解",
+            "Azure Al 自訂視覺",
+            "Azure Al 文件智慧服務"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "文件智慧服務 (Document Intelligence) 內建有專門針對「身分證件 (ID)」的預建模型。"
+    },
+    {
+        "id": 82,
+        "type": "single",
+        "question": "哪一項 Azure 認知服務可用來找出包含敏感性資訊的文件?",
+        "options": [
+            "Azure Al 自訂視覺",
+            "Azure Al 文件智慧服務",
+            "交談語言理解",
+            "-"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "文件智慧服務可以分析文件結構並結合 NLP 技術來標記包含信用卡號或個資的敏感文件。"
+    },
+    {
+        "id": 83,
+        "type": "single",
+        "question": "電腦視覺功能可部署來?",
+        "options": [
+            "為網站部署文字聊天機器人",
+            "識別線上商店的異常客戶行為",
+            "將臉部辨識功能整合到應用程式",
+            "建議對內送電子郵件的自動化回覆"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "臉部辨識（影像分析）是電腦視覺的核心應用之一。"
+    },
+    {
+        "id": 84,
+        "type": "single",
+        "question": "您需要建置一個會建立影像描述的應用程式。您應該使用同一項服務?",
+        "options": [
+            "Azure OpenAl 服務",
+            "Azure Al 視覺",
+            "交談語言理解(CLU)",
+            "Azure Machine Learning"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "產生影像的自動描述（Captioning）是視覺服務內建的核心分析能力。"
+    },
+    {
+        "id": 85,
+        "type": "single",
+        "question": "您需要建立一個模型,為個人數位相片加上標籤。您應該使用哪一項 Azure Al 服務?",
+        "options": [
+            "Azure Al 電腦視覺",
+            "Azure Al 自訂視覺",
+            "Azure Al 文件智慧服務",
+            "Azure Al 語言"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "解題分析：處理特定且非通用的「自有品牌」影像標記，首選自訂視覺。"
+    },
+    {
+        "id": 86,
+        "type": "single",
+        "question": "Azure Ai 自訂視覺模型如果可從共 100 張包含柳橙的影像中,正確識別 70 張包含柳橙的影像。表示產生 70%何者的計量?",
+        "options": [
+            "平均精確率",
+            "精確率",
+            "召回率",
+            "-"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "召回率 (Recall) 衡量「在所有實際正確的樣本中，被模型正確找出的比例」。 "
+    },
+    {
+        "id": 87,
+        "type": "single",
+        "question": "使用 Azure Al 文件智慧服務中預建收據模型可以處理影像大小上限為何?",
+        "options": [
+            "5 MB",
+            "10 MB",
+            "350 MB",
+            "100 MB"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "(有爭議) 依據該考試版本題庫的標準答案為 350 MB。 "
+    },
+    {
+        "id": 88,
+        "type": "single",
+        "question": "使用 Azure AI 電腦視覺服務可以執行哪一項動作?",
+        "options": [
+            "識別直播影片中的動物品種",
+            "建立訓練影片的縮圖",
+            "擷取手寫信件中的資料",
+            "擷取文件中的關鍵片語"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "視覺服務的「讀取 (Read)」功能具備強大的 OCR 能力，可擷取手寫及印刷內容。"
+    },
+    {
+        "id": 89,
+        "type": "single",
+        "question": "你需要實作一套預先建置的解決方案以識別數位相片中的知名品牌。你應該使用哪一個 Azure 服務?",
+        "options": [
+            "Azure Al 文件智慧服務",
+            "Azure Al 電腦視覺",
+            "Azure Al 自訂視覺",
+            "臉部"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Azure AI 電腦視覺內建有「品牌偵測 (Brand Detection)」功能。 "
+    },
+    {
+        "id": 90,
+        "type": "single",
+        "question": "交通流量監視系統從監視器影片中收集車牌號碼是 Azure Al 電腦視覺服務中哪個範例?",
+        "options": [
+            "物件偵測",
+            "自然語言",
+            "光學自元辨識 OCR",
+            "影像描述"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "辨識車牌上的文字與號碼屬於文字識別 (OCR) 的工作。"
+    },
+    {
+        "id": 91,
+        "type": "single",
+        "question": "哪一項 Azure 服務可以使用 Azure Al 文件智慧服務中的預建收據模型?",
+        "options": [
+            "Azure Al 服務",
+            "Azure Al 自訂視覺",
+            "Azure Machine Learning",
+            "Azure Al 視覺"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Azure AI 文件智慧服務是「Azure AI 服務 (原認知服務)」家族的一員。"
+    },
+    {
+        "id": 92,
+        "type": "single",
+        "question": "在表格辨識器中使用自訂模型有何優點?",
+        "options": [
+            "自訂模型可加以訓練來辨識各種表格類型。",
+            "自訂模型一律提供更高的精確度。",
+            "只有自訂模型可以部署在內部部署環境。",
+            "自訂模型比預建模型便宜。"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "預建模型僅支援標準格式，自訂模型可以處理企業特有的不規則表格佈局。"
+    },
+    {
+        "id": 93,
+        "type": "single",
+        "question": "您將一張影像送至電腦視覺 API,並收到如下圖所示的標註影像。請問此處使用了哪種類型的電腦視覺?",
+        "options": [
+            "物件偵測",
+            "臉部偵測",
+            "光學字元識別",
+            "影像分類"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "框線」標註物體位置是物件偵測的核心特徵。 "
+    },
+    {
+        "id": 94,
+        "type": "single",
+        "question": "小明有一個在全速超市貨架影像中識別產品座標的應用程式。請問該應用程式使用了哪項服務?",
+        "options": [
+            "Azure Al 視覺光學字元辨識(OCR)",
+            "Azure Al 自訂視覺物件偵測",
+            "Azure Al 自訂視覺分類",
+            "Azure Al 視覺讀取"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "特定產品需自訂視覺，而座標點位屬於物件偵測的工作。"
+    },
+    {
+        "id": 95,
+        "type": "single",
+        "question": "您應該使用哪一個 Azure Al 文件智慧服務預建模型,從法律文件中攝取當事人和司法管轄區?",
+        "options": [
+            "合約",
+            "讀取",
+            "版面配置",
+            "一般文件"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "文件智慧服務提供針對法律合約 (Contracts) 的專屬預建模型。 "
+    },
+    {
+        "id": 96,
+        "type": "single",
+        "question": "監視資訊站的視訊摘要來識別資訊站使用者是否感到困擾,是以下何者的範例?",
+        "options": [
+            "臉部偵測",
+            "臉部分析",
+            "臉部辨識",
+            "光學字元辨識(OCR)"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "透過臉部表情判讀情緒（困擾、快樂等）屬於「臉部分析」中的情緒屬性分析。"
+    },
+    {
+        "id": 97,
+        "type": "single",
+        "question": "下列何種情況應該使用關鍵片擷取?",
+        "options": [
+            "將一些文件從英文翻譯成德文",
+            "辨識哪些文件提供相同主題的資訊",
+            "辨識餐廳的評論為正面或負面",
+            "根據音軌為影片產生字幕"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "擷取重點片語後，可以透過比對片語的相似性來判斷文件的主題一致性。 "
+    },
+    {
+        "id": 98,
+        "type": "single",
+        "question": "可以使用下列哪一種 AI 服務,擷取使用者輸入的意圖(例如「稍後請回電」)?",
+        "options": [
+            "Azure 認知搜尋",
+            "Azure Al 語音",
+            "Azure Al 翻譯工具",
+            "Azure Al 語言"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「意圖 (Intent)」辨識是語言服務中 CLU (交談語言理解) 的核心功能。"
+    },
+    {
+        "id": 99,
+        "type": "single",
+        "question": "自然語言處理可用於 ________________________",
+        "options": [
+            "將 E-Mail 分類為工作郵件或個人郵件。 ",
+            "預測未來的租車數。",
+            "顯示溫度過高時停止工廠作業。",
+            "預測哪個網站的瀏覽者會執行交易。"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "文本內容分類是 NLP 的標準應用情境。"
+    },
+    {
+        "id": 100,
+        "type": "single",
+        "question": "您需要建立一套客戶支援解決方案,協助客戶存取資訊。該解決方案必須支援電話、電子郵件與即時聊天式管道, 您應該使用下列哪一種 AI 解決方案?",
+        "options": [
+            "自然語言處理(NLP)",
+            "聊天機器人",
+            "機器學習",
+            "電腦視覺"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "這類具備交互性質且能跨管道應對的方案統稱為聊天機器人 (Chatbot)。 "
+    },
+    {
+        "id": 101,
+        "type": "single",
+        "question": "您建置一套自訂問題解答解決方案,並建立了一個使用知識庫回應客戶要求的機器人,您需要確認在不新增額外技能的情況下,該機器人可以執行的工作, 應該指定 ",
+        "options": [
+            "同時回答多位使用者的問題",
+            "登記客戶購買的商品",
+            "為客戶提供退貨授權(RMA)號",
+            "登記客訴內容"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "問題解答服務主要功能為資料檢索與對話回應，不具備邏輯執行（登記或開號）能力。"
+    },
+    {
+        "id": 102,
+        "type": "single",
+        "question": "您要使用自然語言處理來處理 Microsoft 新聞報導的文字。\r\n您收到如下所示輸出：\r\n請問您執行了下列何種類型的自然語言處理? ",
+        "options": [
+            "翻譯",
+            "關鍵片語擷取",
+            "情感分析",
+            "實體辨識"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "識別並分類文本中的實體項目（日期、地點、人名、數值）即為實體辨識 (NER)。"
+    },
+    {
+        "id": 103,
+        "type": "single",
+        "question": "圖中顯示下列哪一種類型的 AI 解決方案? ",
+        "options": [
+            "機器學習模型",
+            "聊天機器人",
+            "情感分析解決方案",
+            "電腦視覺應用程式"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "供使用者對話輸入介面並回覆的交互系統即為聊天機器人。 "
+    },
+    {
+        "id": 104,
+        "type": "single",
+        "question": "您計劃使用 Azure 認知服務來開發語音控制的個人助理應用程式。請將 Azure 認知服務與適當的工作配對。\r\n服務如下：\r\n1.Azure Al 語音\r\n2.Azure Al 語言服務\r\n3.Azure Al 翻譯工具文字\r\n作答區：\r\n(  )A.將使用者的語音轉換為文字。 \r\n(  )B.別使用者的意圖。\r\n(  )C.向使用者提供口語回應。 ",
+        "options": [
+            "121",
+            "212",
+            "122",
+            "221"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 與 C 涉及音訊轉換，屬語音服務 (1)；B 涉及語義理解，屬語言服務 (2)。"
+    },
+    {
+        "id": 105,
+        "type": "single",
+        "question": "您管理一個包含客戶評論的網站,您需要儲存這些評論的美文版,然後辨識每位使用者的地理位置,並以當地語言同使用者展示評論, 您應該使用下列何種類型的自然負載? ",
+        "options": [
+            "語言模組化",
+            "翻譯",
+            "語音辨識",
+            "關鍵片語擷取"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "當地語言展示」涉及文本翻譯服務 "
+    },
+    {
+        "id": 106,
+        "type": "single",
+        "question": "計劃 Azure Al 語言服務 API 功能套用至技術支援報修系統,請將 Azure At 語言服務 API 功能與適當的自然語言處理案例配對。\r\nAPI 功能: \r\n1.實體\r\n2.關鍵片語取 \r\n3.書偵測 \r\n4.情感分析\r\n\r\n作答區:\r\n( )A. 根據支援 修中所包含文字了解客戶的不滿意程度。\r\n( )B. 支援報修中重要資訊。\r\n( )C. 從支援報修中擷取關鍵日期。",
+        "options": [
+            "421",
+            "412",
+            "432",
+            "431"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 滿意度屬情感分析 (4)；B 重要資訊屬關鍵片語 (2)；C 關鍵日期屬實體辨識 (1)。順序 4-2-1。 "
+    },
+    {
+        "id": 107,
+        "type": "single",
+        "question": "可以用來建置使用內建自然語言處理模型的無程式碼應用程式? ",
+        "options": [
+            "Azure Health Bot",
+            "Microsoft Bot Framework",
+            "Power Virtual Agents",
+            "-"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Power Virtual Agents（現 Copilot Studio）是微軟主打的無程式碼對話 AI 平台。"
+    },
+    {
+        "id": 108,
+        "type": "single",
+        "question": "識別電話號碼時,會使用哪種類型的自然語言處理(NLP)實體?",
+        "options": [
+            "規則運算式",
+            "machine-learned",
+            "Pattern.any",
+            "清單"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "電話號碼具備固定模式，最適合使用 Regex（規則運算式）進行精準提取。"
+    },
+    {
+        "id": 109,
+        "type": "single",
+        "question": "您要新增常見問題集(FAQ)的支援,您該使用週項 Azure Al 服務以支援常見問題 ?",
+        "options": [
+            "Azure Al 翻譯工具",
+            "Azure Al 語音",
+            "Azure Al 語言",
+            "Azure Al 文件智慧服務"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「問題解答 (Question Answering)」是語言服務的子集。"
+    },
+    {
+        "id": 110,
+        "type": "single",
+        "question": "您使用常見問題集(FAQ) 頁面建置 Azure Al 語言服務的問題解答機器人。\r\n您需要新增專業的問候語及其他回應,使機器人能夠更友善地與使用者互動、您應該採取",
+        "options": [
+            "提高回應的信賴等級",
+            "啟用主動式學習",
+            "新增閒聊",
+            "建立多回合問題"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "閒聊 (Chit-chat)」功能提供各種預設人設，讓機器人更擬人化。"
+    },
+    {
+        "id": 111,
+        "type": "single",
+        "question": "小明正在 寫一個交談語言理解應用程式以支援 寮海洋音樂節。\r\n小明希望使用者能夠詢問預定節目的相關問題,例如:「主舞台現在正在進行週一場表演?」,此間類型元素的範例?",
+        "options": [
+            "實體",
+            "意圖",
+            "領域",
+            "表達"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "使用者實際說出的句子，在語言服務中稱為「表達 (Utterance)」。 "
+    },
+    {
+        "id": 112,
+        "type": "single",
+        "question": "Jasper 正在使用 Azure Al 語言服務的自訂解答功能建置知武庫。請問 Jasper 可以使用哪種檔案格式來填入知識庫?",
+        "options": [
+            "JPGE",
+            "PDF",
+            "PPTX",
+            "ZIP"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "問題解答服務支持解析 PDF、Word、Excel 及 HTML 格式的文件。 "
+    },
+    {
+        "id": 113,
+        "type": "single",
+        "question": "Anita 正在為電子商務企業建置交談語言理解模型。Anita 需要確保當語句超出範圍時,該模型仍可偵測。請問你要協助 Anita 怎麼處理?",
+        "options": [
+            "建立新的模型。",
+            "匯出模型。",
+            "建立預建工作實體。",
+            "將語句新增至「None (無)」意圖。"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "在交談語言理解中，將垃圾語句或無關請求放入「None (無)」意圖，可以幫助模型正確地拒絕超出範圍的指令。"
+    },
+    {
+        "id": 114,
+        "type": "single",
+        "question": "您有一個根據問題解答知識庫提供回應的網路聊天機器人。您需要確保該機器人會利用使用者意見反應 著時間改善回應的相關性。您應該使用何者? ",
+        "options": [
+            "主動式學習",
+            "情感分析",
+            "商務邏輯",
+            "關鍵片語擷取"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「主動式學習 (Active Learning)」會建議新的問答對或優化現有對應，實現持續優化。"
+    },
+    {
+        "id": 115,
+        "type": "single",
+        "question": "一項自然語言處理功能可用於 別客戶意見反應問卷中的主要話題?",
+        "options": [
+            "翻譯",
+            "關鍵片語擷取",
+            "語言偵測",
+            "實體辨識"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "擷取文本中的重點主題應使用關鍵片語擷取功能。"
+    },
+    {
+        "id": 116,
+        "type": "single",
+        "question": "您擁有 100 部「不」包含任何音訊的教學影片,每節教學影片都有一份腳本,您需要根據腳本,為每部影片產生旁白音訊檔案, 您應該使用下列何種工作負載?",
+        "options": [
+            "語言模組化",
+            "翻譯",
+            "語音合成",
+            "語音辨識"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "文字轉語音 (Text-to-Speech) 即是語音合成工作負載。"
+    },
+    {
+        "id": 117,
+        "type": "single",
+        "question": "下列何者可以依據使用者所輸入的句子生成文字段著回應?",
+        "options": [
+            "Azure Al 語言",
+            "Azure Al 視覺",
+            "Azure OpenAl",
+            "Azure Machine Learning"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "大語言模型內容生成。 "
+    },
+    {
+        "id": 118,
+        "type": "single",
+        "question": "想要以文字描述產生宣傳手冊中的卡通插畫,應該使用下列同一個 Azure OpenAl 模型?",
+        "options": [
+            "GPT-4",
+            "GPT-3.5",
+            "DALL-E",
+            "Codex"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "DALL-E 專門負責「文字生圖」的任務。 "
+    },
+    {
+        "id": 119,
+        "type": "single",
+        "question": "在 Microsoft Visual Studio Code 整合開發環境中,下列哪個延伸模組會使用 OpenAl Codex 模型?",
+        "options": [
+            "GitHub Copilot",
+            "GitHub 原始檔控制",
+            "Microsoft 365 Copilot",
+            "IntelliSense"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Codex 是專門為程式碼理解與生成定型的模型，支撐了 GitHub Copilot。"
+    },
+    {
+        "id": 120,
+        "type": "single",
+        "question": "在聊天解決方案中使用 Azure OpenAI GPT-3.5 模型時,應該設定下列哪個參數,才能生成更多樣化的 Token 回應? ",
+        "options": [
+            "存在懲罰",
+            "回應上限",
+            "包含過去訊息",
+            "停止序列"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "存在懲罰 (Presence Penalty)」能降低模型重複使用相同 Token 的機率，進而增加多樣性。 "
+    },
+    {
+        "id": 121,
+        "type": "single",
+        "question": "想依據使用者所輸入的文字提示生成影像,應該使用下列哪個 Azure OpenA 模型?",
+        "options": [
+            "GPT-4",
+            "DALL-E",
+            "GPT-3",
+            "Codex"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "影像生成專屬模型。"
+    },
+    {
+        "id": 122,
+        "type": "single",
+        "question": "請問哪一個 Azure OpenAl 模型可用於開發程式碼?",
+        "options": [
+            "DALL E",
+            "GPT-4-32k",
+            "Whisper",
+            "icrosoft-swinv2-base-patch4-window12-192-22k"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "GPT-4 具備極強的邏輯推理能力，是撰寫代碼的最佳模型。"
+    },
+    {
+        "id": 123,
+        "type": "single",
+        "question": "以下何者可用來建置為網站創作短編文章的 AI 模型?",
+        "options": [
+            "Azure OpenAl Studio",
+            "文件智慧服務工作室",
+            "ChatGPT",
+            "GitHub Copilot"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Azure OpenAI 的管理與測試入口。 "
+    },
+    {
+        "id": 124,
+        "type": "single",
+        "question": "以下哪一個詞彙是用來描述上傳您自己的資料以自訂 Azure OpenAl 模型?",
+        "options": [
+            "微調",
+            "完成",
+            "提示工程",
+            "基礎知識"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Fine-tuning（微調）是指在基礎模型上使用特有數據進一步定型。"
+    },
+    {
+        "id": 125,
+        "type": "single",
+        "question": "請問如何才能確保 Azure OpenAl 模型會產生回含最近事件的準確回應?",
+        "options": [
+            "新增基礎知識資料",
+            "新增訓練資料",
+            "新增小樣本學習",
+            "修改系統訊息"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "透過 RAG（檢索增強生成）提供「基礎知識資料 (Grounding)」，可以彌補模型訓練時點之後的資訊缺失。"
+    },
+    {
+        "id": 126,
+        "type": "single",
+        "question": "請問提供情境資訊以改善生成式 AI 解決方案的回應品質是下列哪種提示工程技術的範例?",
+        "options": [
+            "提供範例",
+            "微調",
+            "系統訊息",
+            "基礎知識資料"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "提供情境資訊供模型參考，這就是 Grounding 概念。"
+    },
+    {
+        "id": 127,
+        "type": "single",
+        "question": "應設定哪一個參數,才能透過使用 Azure OpenA) GPT-3.5 模型的聊天解決方案產生更多樣化的回應?",
+        "options": [
+            "回應上限",
+            "存在懲罰",
+            "停止序列",
+            "溫度"
+        ],
+        "answer": [
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "溫度 (Temperature) 數值越高，輸出的隨機性與多樣化程度越高。 "
+    },
+    {
+        "id": 128,
+        "type": "single",
+        "question": "會使用系統提示和額外內容來緩解生成式 AI 模型的有害輸出。",
+        "options": [
+            "提示和基礎知識",
+            "模型",
+            "安全系統",
+            "使用者體驗"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "透過良好的系統指令設定與數據引導來控制模型回答。"
+    },
+    {
+        "id": 129,
+        "type": "single",
+        "question": "請問您應該實作下列哪一項以防止生成式 AI 解決方案傳回仇恨回應?",
+        "options": [
+            "微調",
+            "內容篩選",
+            "濫用監視",
+            "提示工程"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "過濾機制。"
+    },
+    {
+        "id": 130,
+        "type": "single",
+        "question": "有下列 REST API 要求。請問應該使用下列哪一個 Azure OpenAl 模型來處理要求? ",
+        "options": [
+            "DALL-E",
+            "Codex",
+            "GPT",
+            "Whisper"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "參數中包含尺寸 (size) 與風格 (style)，明顯為影像生成需求。"
+    },
+    {
+        "id": 131,
+        "type": "single",
+        "question": "請問應該使用哪位 Azure OpenAl 模型以摘要處理文件中的文字",
+        "options": [
+            "DALL-E",
+            "Codex",
+            "GPT",
+            "Whisper"
+        ],
+        "answer": [
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "文字總結與摘要屬文本大模型優勢。"
+    },
+    {
+        "id": 132,
+        "type": "single",
+        "question": "是指在大型語言模型(LLM)中指派給每個字詞或權杖的多維度向量。",
+        "options": [
+            "内嵌",
+            "注意力",
+            "完成度",
+            "轉換器"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "「內嵌 (Embeddings)」是將語言數位化後具備語義座標的向量表示。"
+    },
+    {
+        "id": 133,
+        "type": "single",
+        "question": "Anita 部署了 Azure OpenAi 服務以產生影像,Anita 需要確保該服務會提供最高等級的保護能力,防範有害內容, 請問您應該協助 Anita 採取什麼措施? ",
+        "options": [
+            "設定內容師選設定",
+            "自訂大型語言模型(LLM)",
+            "設定系統提示",
+            "變更 Azure OpenAI 服務所使用的模型"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "安全過濾器設定。"
+    },
+    {
+        "id": 134,
+        "type": "single",
+        "question": "將 Azure OpenAl 大型語言模型的程序和工作做配對,請將左邊的適當的程序填至右邊 對應的工作中,程序可重複使用或不使用。\r\n1.分鐘\r\n2.摘要 \r\n3.產生\r\n4.翻譯工作\r\n\r\n( )A.文學作品所屬的類型。 \r\n( )B.根據會議文字建立重點清單。\r\n( )C.根據產品的文字描述建立廣告文案。 ",
+        "options": [
+            "123",
+            "132",
+            "213",
+            "231"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "A 判斷類別屬分類 (1)；B 重點提煉屬摘要 (2)；C 內容創作屬產生 (3)。順序為 1-2-3。 "
+    },
+    {
+        "id": 135,
+        "type": "multiple",
+        "question": "Microsoft 責任 AI 的指導準則是哪三項?",
+        "options": [
+            "決斷性",
+            "固執性",
+            "知識性",
+            "公平性",
+            "包容性",
+            "可靠性和安全性"
+        ],
+        "answer": [
+            4,5,6
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "六大準則為：公平性、包容性、可靠性與安全性、隱私權與安全性、透明度、權責。"
+    },
+    {
+        "id": 136,
+        "type": "multiple",
+        "question": "下列兩個案例是自然語言處理工作負載範例?每個正確答案都呈現一個完整的解決方案。",
+        "options": [
+            "監控機器溫度,以在溫度達到特定 值時打開風扇",
+            "可以回答諸如「今天天氣如何?」等問題的家用智慧型裝置",
+            "自動將車前燈插入汽車的生產線機械",
+            "使用知識庫以互動方式回答使用者問題的網站",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            2,4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "(2) 與 (4) 皆涉及機器對人類口語或書面語言的理解與應對。 "
+    },
+    {
+        "id": 137,
+        "type": "multiple",
+        "question": "您正在建置 AI 應用程式,您需要確保應用程式使用負責任 AI 的準則,請問您應該遵循下列哪兩個準則?",
+        "options": [
+            "實作敏捷式軟體開發(Agile Software Development)方法",
+            "建立風險治理委員會,包括合法小組的成員、風險治理小組的成員,以及隱私保護專頁",
+            "防止洩漏使用 AI 演算法自動做出決策",
+            "實作 AI 模型驗證的程序,做為軟體檢閱程序的一部分",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            2,4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "治理（委員會）與技術驗證（評估程序）是實踐責任 AI 的關鍵行政與技術環節。"
+    },
+    {
+        "id": 138,
+        "type": "multiple",
+        "question": "使用 Azure Machine Learning 設計工 發佈推斷管線時,您應該使用下列哪兩個參數來存取 Web 服務?",
+        "options": [
+            "模型名稱",
+            "REST 端點",
+            "驗證金鑰",
+            "定型端點",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            2,3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "外部應用程式呼叫 API 必須持有正確的伺服器網址 (Endpoint) 與權限金鑰 (Key)。"
+    },
+    {
+        "id": 139,
+        "type": "multiple",
+        "question": "使用電腦視覺可執行下列哪兩項工作?每個正確答案都是一個完整的解決方案。",
+        "options": [
+            "將影像中的文字翻譯為不同語言",
+            "辨識手寫文字",
+            "訓練自訂影像分類模型",
+            "偵測影像中臉部",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            2,4
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "OCR (2) 與 臉部偵測 (4) 均為電腦視覺的標準特徵功能。"
+    },
+    {
+        "id": 140,
+        "type": "multiple",
+        "question": "使用電腦視覺可執行下列哪兩項工作?每個正確答案都是一個完整的解決方案",
+        "options": [
+            "偵測影像中的色彩配置",
+            "將文字翻譯為不同語言",
+            "擷取關鍵詞組",
+            "預測股票價格",
+            "偵測影像中的商標",
+            "以上皆是"
+        ],
+        "answer": [
+            1,5
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "影像屬性分析（色彩）與圖形辨識（商標）均屬視覺服務領域。"
+    },
+    {
+        "id": 141,
+        "type": "multiple",
+        "question": "在下列哪兩種情況可以使用 Azure Al 文件智慧服務,每個正確答案都是一個完整的解決方案。",
+        "options": [
+            "從發票中擷取發票號碼",
+            "根據收據辨識零售商",
+            "在目錄中尋找產品影像",
+            "資將表格從法文翻譯成英文本型",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            1,2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "針對發票與收據的欄位化提取是該服務的強項。"
+    },
+    {
+        "id": 142,
+        "type": "multiple",
+        "question": "您可以在下列哪兩種情況中使用語音合成解決方案 7 每個正確答案都呈現一個完整的解決方案。",
+        "options": [
+            "使用電話鍵盤將信用卡號碼輸入到電話時,可以朗讀輸入號碼的自動語音",
+            "可以用語音與玩家交談的電腦遊戲 AI 角色",
+            "為新聞廣播產生即時字幕",
+            "從會議錄音中擷取關鍵片語",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            1,2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "(1) 與 (2) 均是將文字訊號轉為音訊播放，屬於語音合成。 "
+    },
+    {
+        "id": 143,
+        "type": "multiple",
+        "question": "需要為商務聊天機器人提供內容,以協助其為使用者解答 單的查詢。\r\n下列哪三種方式 使用語言服務的問題解答來建立問與答文字?",
+        "options": [
+            "從預先定義的資料來源匯入閒聊內容",
+            "手動輸入問題與答案",
+            "將機器人連線到 Cortana 頻道,並且用 Cortana 提問",
+            "從現有的網頁產生問題與答案",
+            "使用 Azure Machine Learning 自動化 ML,根據包含問題與答案組的檔案來定型模型",
+            "以上皆是"
+        ],
+        "answer": [
+            1,2,4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "知識庫可以經由文件匯入、URL 爬取或手動建檔來填充。"
+    },
+    {
+        "id": 144,
+        "type": "multiple",
+        "question": "轉換器模型架構中的三個階段為何?",
+        "options": [
+            "物件偵測",
+            "下一個 Token 預測",
+            "Token 化",
+            "注意力計算",
+            "匿名化",
+            "以上皆是"
+        ],
+        "answer": [
+            2,3,4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "Transformer 架構的核心機制：將詞彙轉為 Token、計算彼此關聯強度（注意力），最後預測機率最高的下一個詞彙。"
+    },
+    {
+        "id": 145,
+        "type": "multiple",
+        "question": "使用 Azure OpenAI 生成式 AI 應用程式可以產生下列哪兩種類型的內容?",
+        "options": [
+            "音訊",
+            "文字",
+            "影像",
+            "影片",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            2,3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "以 GPT 與 DALL-E 為代表 "
+    },
+    {
+        "id": 146,
+        "type": "multiple",
+        "question": "使用 Azure OpenAI DALLE 模型可以執行下列哪兩項任務?",
+        "options": [
+            "偵測影像中的物件",
+            "建立影像",
+            "修改影像",
+            "光學字元辨識(OCR)",
+            "產生影像的標題",
+            "以上皆是"
+        ],
+        "answer": [
+            2,3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "DALL-E 主攻生成與影像編輯。 "
+    },
+    {
+        "id": 147,
+        "type": "multiple",
+        "question": "想要呼叫 Azure OpenAl 服務,可以使用下列哪兩個工具?",
+        "options": [
+            "Azure REST API",
+            "適用於 JavaScript 的 Azure SDK",
+            "適用於 Python 的 Azure SDK",
+            "Azure 命令列介面(CLI)",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            1,3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "主要的開發介面方式。"
+    },
+    {
+        "id": 148,
+        "type": "multiple",
+        "question": "您有一個使用 Azure OpenAl GPT-3.5 大型語言模型(LLM)回答技術性問題的聊天機器人。\r\n下列哪兩個敘述正确描述了該聊天機器人?每個正確答案都呈現一個完整的解決方案。",
+        "options": [
+            "該聊天機器人能適切地執行醫療診斷。",
+            "使用基礎知識資料可以限制聊天機器人的輸出。",
+            "該聊天機器人可能會使用到不準確的資料做出回應。",
+            "該聊天機器人提供的資料會一律準確。",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            2,
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "大模型存在幻覺風險 (3)，需透過 RAG 方式限制範圍 (2)。 "
+    },
+    {
+        "id": 149,
+        "type": "multiple",
+        "question": "您可以使用感兩個資源來分析程式碼並產生程式碼函式的說明和程式碼註解?",
+        "options": [
+            "Azure OpenAI DALL E 模型",
+            "Azure OpenAl Whisper 模型",
+            "Azure OpenAl GPT-4 模型",
+            "GitHub Copilot 服務",
+            "以上皆非",
+            "以上皆是"
+        ],
+        "answer": [
+            3,
+            4
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "GPT-4 與 GitHub Copilot 是處理代碼邏輯的專用資源。"
+    },
+    {
+        "id": 150,
+        "type": "multiple",
+        "question": "請問生成式 AI 模型有兩種類型?",
+        "options": [
+            "DALL E",
+            "轉換器",
+            "GPT",
+            "Whisper",
+            "GPT",
+            "電腦視覺"
+        ],
+        "answer": [
+            1,
+            3
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "影像生成與文本生成各代表一個類型。"
+    },
+    {
+        "id": 151,
+        "type": "multiple",
+        "question": "您需要使用以下資料集來預測指定客戶的收入 ,應該將下列兩個欄位用作特徵?",
+        "options": [
+            "名字",
+            "姓氏",
+            "教育程度",
+            "收入範圍",
+            "年齡",
+            "以上皆是"
+        ],
+        "answer": [
+            3,5
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "名字與姓氏與收入無邏輯相關；收入範圍是目標「標籤」；因此，教育程度與年齡是有效的「特徵」。"
+    },
+    {
+        "id": 152,
+        "type": "truefalse",
+        "question": "監視線上服務的評論是否包含不雅用語為一項自然語言處理範例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "內容審核（Content Moderation）是自然語言處理（NLP）的一項重要功能，用於辨識並過濾文字中的不當內容或不雅言論。"
+    },
+    {
+        "id": 153,
+        "type": "truefalse",
+        "question": "辨識影像中品牌標誌為一項自然語言處理範例",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "辨識影像或圖片中的視覺元素（如品牌標誌、物體或場景）屬於「電腦視覺（Computer Vision）」的範疇，而非自然語言處理。"
+    },
+    {
+        "id": 154,
+        "type": "truefalse",
+        "question": "監視公開新聞網站是否包含產品負面陳述為一項自然語言處理範例",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "這屬於自然語言處理中的「情感分析（Sentiment Analysis）」，用於偵測文本內容所表達的情緒偏向（正面、負面或中性）。"
+    },
+    {
+        "id": 155,
+        "type": "truefalse",
+        "question": "根據歷史資料預測房價為異常偵測範例",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "預測連續性的數值（如房價）屬於機器學習中的「迴歸（Regression）」工作負載，而非異常偵測。"
+    },
+    {
+        "id": 156,
+        "type": "truefalse",
+        "question": "在慣常模式中尋找偏差藉以識別可疑的登入為異常偵測範例",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "異常偵測（Anomaly Detection）的核心作用就是識別偏離常態模式的異常事件，這常用於信用卡欺詐偵測或不尋常的系統登入活動。"
+    },
+    {
+        "id": 157,
+        "type": "truefalse",
+        "question": "根據患者的病歷預測患者是否會罹患糖尿病為異常偵測範例",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "預測資料屬於哪一個預定義的類別（如：罹病或健康、是或否）屬於「分類（Classification）」工作負載。"
+    },
+    {
+        "id": 158,
+        "type": "truefalse",
+        "question": "會回答諸如「我的下一場約會是何時?」等問題的家用智慧型裝置為交談式 AI 的範例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": null,
+        "explanation": "交談式 AI（Conversational AI）是指能讓人類與電腦進行對話互動的技術，智慧助理即為其典型應用。"
+    },
+    {
+        "id": 159,
+        "type": "truefalse",
+        "question": "為預先錄製影片自動產生字幕是交談式 AI 的範例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "自動產生字幕屬於語音轉文字（Speech-to-Text）技術，屬於語音服務範疇，並不具備交談式 AI 的雙向互動特性。"
+    },
+    {
+        "id": 160,
+        "type": "truefalse",
+        "question": "您使用未標記的資料定型迴歸模型。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "迴歸屬於監督式學習（Supervised Learning），定型模型時必須使用包含已知正確結果（標籤）的資料集。"
+    },
+    {
+        "id": 161,
+        "type": "truefalse",
+        "question": "分類技術用來預測一段時間後的連續數值。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "分類是用來預測離散的類別標籤（如：貓或狗）；預測連續數值的工作應使用迴歸。 "
+    },
+    {
+        "id": 162,
+        "type": "truefalse",
+        "question": "依共同特性分組項目為最集（叢集）。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "叢集（Clustering）是一種非監督式學習，旨在將資料中相似的實體自動歸類為同一個群組。 "
+    },
+    {
+        "id": 163,
+        "type": "truefalse",
+        "question": "若為迴歸模型,標籤必須是數值。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "迴歸模型的預測目標（標籤）必須是連續的數值。 "
+    },
+    {
+        "id": 164,
+        "type": "truefalse",
+        "question": "若為叢集模型,必須提供標籤。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "叢集屬於非監督式學習（Unsupervised Learning），不需要事先提供標籤，模型會自行學習資料間的相似度。 "
+    },
+    {
+        "id": 165,
+        "type": "truefalse",
+        "question": "若為分類模型,標籤必須為數值。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "分類模型的標籤通常是類別名稱（文字），雖然可以轉換成數值進行運算，但其本質是分類標籤而非數值量。"
+    },
+    {
+        "id": 166,
+        "type": "truefalse",
+        "question": "Azure Machine Learning 設計工具提供拖放視覺效果畫布,以供建置、測試 and 部署機器學習模型。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這是設計工具（Designer）的核心定義，提供視覺化的畫布介面讓用戶透過模組串接來完成機器學習管線。 "
+    },
+    {
+        "id": 167,
+        "type": "truefalse",
+        "question": "Azure Machine Learning 設計工具提供可將進度儲存為管線草稿。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "在設計工具中，使用者可以將正在進行的工作保存為管線草稿，隨時繼續編輯。"
+    },
+    {
+        "id": 168,
+        "type": "truefalse",
+        "question": "Azure Machine Learning 設計工具可併入自訂的 JavaScript 函式。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Azure Machine Learning 設計工具主要支援透過 Python 與 R 腳本模組來執行自訂函式。 "
+    },
+    {
+        "id": 169,
+        "type": "truefalse",
+        "question": "自動化機器學習讓您能夠將自訂 Python 程式碼包含在訓練管線中。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "自動化 ML（AutoML）是自動選取演算法與調整參數的封閉式流程，不支援在其中直接插入自訂 Python 程式碼。"
+    },
+    {
+        "id": 170,
+        "type": "truefalse",
+        "question": "自動化機器學習實作機器學習解決方案無需程式設計經驗。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "AutoML 的設計初衷即為「低程式碼/無程式碼」，讓不具備深厚程式背景的用戶也能訓練出高品質模型。"
+    },
+    {
+        "id": 171,
+        "type": "truefalse",
+        "question": "自動化機器學習使您能夠在互動式畫布中以視覺方式連接資料集 and 模組。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這是「設計工具 (Designer)」的功能特點，而非自動化 ML 的操作方式。"
+    },
+    {
+        "id": 172,
+        "type": "truefalse",
+        "question": "根據不同使用量來統計資料分組文件,為最集（叢集）模型的運用實例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "透過相似性（如使用量分佈）將對象自動分類到不同群組，是叢集模型的標準應用場景。"
+    },
+    {
+        "id": 173,
+        "type": "truefalse",
+        "question": "根據症狀 and 診斷測試結果分組相似的病患,為叢集模型的運用實例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "解題分析：將特徵相似的人群自動歸類，屬於叢集分析。"
+    },
+    {
+        "id": 174,
+        "type": "truefalse",
+        "question": "根據花粉數預測病患會罹患輕度、中度還是嚴重的過敏症狀,為叢集模型的運用實例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這屬於預測「預定義的類別」（輕、中、重度），應屬於「多類別分類（Multiclass Classification）」。"
+    },
+    {
+        "id": 175,
+        "type": "truefalse",
+        "question": "物件偵測可以識別影像中受損產品的位置。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "物件偵測除了辨識物體類別，還能標註物體在影像中的座標位置（邊界框）。"
+    },
+    {
+        "id": 176,
+        "type": "truefalse",
+        "question": "物件偵測可以識別影像中受損產品的多個實例。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "物件偵測能夠在同一張影像中找出並標註多個相同或不同類別的物體。"
+    },
+    {
+        "id": 177,
+        "type": "truefalse",
+        "question": "物件偵測可以識別影像中多種發型的受損產品。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "物件偵測可以經由訓練識別各類不同視覺特徵的缺陷或物體。"
+    },
+    {
+        "id": 178,
+        "type": "truefalse",
+        "question": "具名實體辨識可用來擷取文件字串中的日期與時間。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "命名實體辨識（NER）的功能是識別文本中屬於特定類別的實體，如：人名、組織、日期與時間等。"
+    },
+    {
+        "id": 179,
+        "type": "truefalse",
+        "question": "關鍵片語擷取可用來擷取文件字串中的重要片語。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "關鍵片語擷取（Key Phrase Extraction）用於分析非結構化文字，並列出代表文件重點的主要字詞或片語。"
+    },
+    {
+        "id": 180,
+        "type": "truefalse",
+        "question": "關鍵片語擷取可用來擷取文件字串中的所有城市名稱。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "擷取特定類別（如：城市、地名）的工作應屬於「命名實體辨識（NER）」而非關鍵片語擷取。"
+    },
+    {
+        "id": 181,
+        "type": "truefalse",
+        "question": "聊天機器人只能使用自訂程式碼來建置。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "用戶可以使用如 Power Virtual Agents 等無程式碼工具，或 Bot Service 提供的範本來建立機器人。 "
+    },
+    {
+        "id": 182,
+        "type": "truefalse",
+        "question": "Azure Bot Service 提供用於裝載交談式機器人的服務。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Azure Bot Service 是微軟提供的雲端平台，專門用於開發、發佈及裝載對話機器人。 "
+    },
+    {
+        "id": 183,
+        "type": "truefalse",
+        "question": "使用 Azure Bot Service 建置的機器人可與 Microsoft Teams 使用者交流。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Azure Bot Service 支援多種管道（Channels），Microsoft Teams 是其最常用且主要支援的對接管道之一。"
+    },
+    {
+        "id": 184,
+        "type": "truefalse",
+        "question": "下列服務呼叫將接受英文文字做為輸入並且輸出法文 and 義大利文文字:\r\n/translate?from=it&to=fr&to=en",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "參數 from=it 代表輸入語言是「義大利文」，而非英文。 "
+    },
+    {
+        "id": 185,
+        "type": "truefalse",
+        "question": "下列服務呼叫將接受英文文字做為輸入並且輸出法文 and 義大利文文字:\r\n /translate?from=en&to=fr&to=it",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "參數 from=en 正確標記了輸入語言為英文，to=fr&to=it 則代表輸出為法文與義大利文。"
+    },
+    {
+        "id": 186,
+        "type": "truefalse",
+        "question": "翻譯服務可用來將文件由英文翻譯為法文。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Azure AI 翻譯工具（Translator）支援多語言間的文字與文件自動翻譯。"
+    },
+    {
+        "id": 187,
+        "type": "truefalse",
+        "question": "聊天機器人可以支援語音輸入。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "結合語音轉文字（Speech-to-Text）服務後，機器人即可處理語音輸入。"
+    },
+    {
+        "id": 187,
+        "type": "truefalse",
+        "question": "聊天機器人可以支援語音輸入。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "結合語音轉文字（Speech-to-Text）服務後，機器人即可處理語音輸入。"
+    },
+    {
+        "id": 188,
+        "type": "truefalse",
+        "question": "每一種溝通管道都需要一個不同聊天機器人。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "一個後端機器人可以透過 Azure Bot Service 同時對接到多個通訊管道（如：Web, Teams, Facebook 等）。 "
+    },
+    {
+        "id": 189,
+        "type": "truefalse",
+        "question": "【聊天機器人可以結合自然語言及受限的回應選項來管理交談程序。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "現代機器人常使用混合模式，即結合 NLP 的開放對話與按鈕選單（如：調適型卡片）來引導用戶。"
+    },
+    {
+        "id": 190,
+        "type": "truefalse",
+        "question": "您可以使用 Azure AI 語言服務的問題解答查詢 Azure SQL 資料庫。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "問題解答（Question Answering）僅能查詢與其知識庫關聯的數據，不能直接執行 SQL 查詢關聯式資料庫。 "
+    },
+    {
+        "id": 191,
+        "type": "truefalse",
+        "question": "若您希望知識庫針對詢問類似問題的不同使用者,提供相同答案,則應該使用 Azure AI 語言服務的問題解答。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "問題解答的核心功能就是從知識庫中匹配相似的問題，並回傳預設好的標準答案。 "
+    },
+    {
+        "id": 192,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務的問題解答可以判斷使用者語句的意圖。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "專門判斷「意圖（Intent）」的服務是「交談語言理解 (CLU)」。 "
+    },
+    {
+        "id": 193,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務可以識別文字是以何種語言撰寫。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這屬於語言服務中的「語言偵測」功能。"
+    },
+    {
+        "id": 194,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務可以偵測文件中的手寫簽名。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "偵測影像中的筆跡或簽名位置應屬於「Azure AI 文件智慧服務」的範疇。 "
+    },
+    {
+        "id": 195,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務可以識別文件中所提及的公司 and 組織。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這是「命名實體辨識 (NER)」的功能。 "
+    },
+    {
+        "id": 196,
+        "type": "truefalse",
+        "question": "可以使用 Azure AI 語音服務將通話轉譯為文字。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "語音轉文字服務可以即時或非即時地將語音訊號轉化為書面文字。"
+    },
+    {
+        "id": 197,
+        "type": "truefalse",
+        "question": "您可以使用 Azure AI 語言服務從通話文字記錄中擷取關鍵實體。 ",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "文字紀錄產生後，可以利用語言服務的 NER 功能進一步分析其中的關鍵資訊。 "
+    },
+    {
+        "id": 198,
+        "type": "truefalse",
+        "question": "您可以使用 Azure AI 語音服務將通話音訊翻譯為其他語言。 ",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這屬於語音服務中的「語音翻譯 (Speech Translation)」功能。"
+    },
+    {
+        "id": 199,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務可用來從文件中擷取關鍵片語。 ",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這屬於語言服務提供的基本 NLP 分析功能之一。 "
+    },
+    {
+        "id": 200,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務可用來根據使用者提示產生新聞稿。 ",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "根據提示語生成內容屬於「生成式 AI（如 Azure OpenAI）」的工作，傳統語言服務主要在於「分析」而非創作。"
+    },
+    {
+        "id": 201,
+        "type": "truefalse",
+        "question": "Azure AI 語言服務可用來建置社交媒體摘要分析器以偵測情緒。 ",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "可以利用「情感分析」功能來偵測社群媒體上公眾對於特定話題的正面或負面反應。"
+    },
+    {
+        "id": 202,
+        "type": "truefalse",
+        "question": "您可以使用語音啟動的虛擬助理與機器人交談。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這屬於交談式 AI 結合語音技術的典型運作模式。"
+    },
+    {
+        "id": 203,
+        "type": "truefalse",
+        "question": "您可以使用 Microsoft Teams 與機器人交談。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Teams 是微軟支援機器人交互的核心通訊介面。"
+    },
+    {
+        "id": 204,
+        "type": "truefalse",
+        "question": "可以使用網頁聊天介面與機器人交談。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "網頁聊天介面（Web Chat）是部署機器人最基本且廣泛的方式。"
+    },
+    {
+        "id": 205,
+        "type": "truefalse",
+        "question": "OpenAI 的 GPT-3.5 Turbo 模型能將語音轉成文字。 ",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "GPT-3.5 是一個文字大型語言模型。語音轉文字是由 Whisper 模型或 Azure 語音服務處理。"
+    },
+    {
+        "id": 206,
+        "type": "truefalse",
+        "question": "Azure OpenAI 的內嵌文字模型能依據文字相似性將文字轉換成數值向量。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這就是內嵌（Embeddings）模型的定義，將文字語義映射到數值向量空間。"
+    },
+    {
+        "id": 207,
+        "type": "truefalse",
+        "question": "Azure OpenAI 的 DALL-E 模型能根據文字提示產生對應的影像。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "DALL-E 是一個生成式模型，專門用於「文生圖」。"
+    },
+    {
+        "id": 208,
+        "type": "truefalse",
+        "question": "轉換器模型架構中包含編碼器 and 解碼器兩個區塊。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "這是 Transformer 模型架構的基本組成部分。 "
+    },
+    {
+        "id": 209,
+        "type": "truefalse",
+        "question": "轉換器模型架構中會用到自我注意力。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "自我注意力（Self-attention）是 Transformer 能夠理解長距離詞語關聯的核心機制。"
+    },
+    {
+        "id": 210,
+        "type": "truefalse",
+        "question": "轉換器模型架構中包含加密 and 解密兩個區塊。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "架構中是「編碼（Encoding）」與「解碼（Decoding）」，並非資訊安全中的加密。"
+    },
+    {
+        "id": 211,
+        "type": "truefalse",
+        "question": "必須自己建置 and 訓練模型,才能建立符合 Microsoft 負責任 AI 準則的解決方案。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            2
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "即便使用微軟提供的預訓練模型（如 Azure AI 服務），只要在實作過程中落實過濾、監控與透明度，亦能符合責任 AI 準則。"
+    },
+    {
+        "id": 212,
+        "type": "truefalse",
+        "question": "Azure OpenAI 使用預先訓練的生成式 AI 模型。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Azure OpenAI 提供的 GPT、DALL-E 等模型都是已經由大量資料預先訓練好的基礎模型。 "
+    },
+    {
+        "id": 213,
+        "type": "truefalse",
+        "question": "開發者可使用自己的資料來微調 Azure OpenAI。",
+        "options": [
+            "✔️",
+            "❌"
+        ],
+        "answer": [
+            1
+        ],
+        "weight": 1,
+        "image": "",
+        "explanation": "Azure OpenAI 提供微調（Fine-tuning）功能，允許用戶使用特定領域的資料來優化模型的表現。"
+    }
+]
