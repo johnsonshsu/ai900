@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI900 - 題庫搜尋</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/linehight.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        /* 搜尋結果卡片 */
+        .search-result-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            background: #fafafa;
+            transition: box-shadow 0.2s;
+        }
+
+        .search-result-card:hover {
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        /* 題目文字 */
+        .search-question-text {
+            font-size: 1.15em;
+            margin-bottom: 12px;
+            color: maroon;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        /* 選項區域 */
+        .search-options {
+            margin: 8px 0;
+        }
+
+        .search-option {
+            padding: 6px 12px;
+            margin-bottom: 4px;
+            border-radius: 4px;
+            font-size: 1.05em;
+            line-height: 1.5;
+        }
+
+        .option-number {
+            font-weight: bold;
+            margin-right: 4px;
+            color: #555;
+        }
+
+        /* 正確答案高亮 */
+        .search-correct-option {
+            background: #eaf7ea;
+            border-left: 4px solid #27ae60;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        /* 解析區域 */
+        .search-explanation {
+            margin-top: 8px;
+            padding: 10px 16px;
+            background: #f8f8f8;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* 搜尋關鍵字高亮 */
+        mark {
+            background: #fff3cd;
+            padding: 1px 3px;
+            border-radius: 2px;
+        }
+
+        /* code 標籤樣式 */
+        .search-result-card code:not(pre code) {
+            background: #868585;
+            color: #ffffff;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            font-size: 0.95em;
+        }
+
+        /* 搜尋輸入框增強 */
+        #search-input:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-title">AI900<br />題庫搜尋</div>
+
+        <div id="search-section">
+            <div class="d-flex align-items-center mb-3">
+                <a href="index.html" class="btn btn-outline-secondary me-3">
+                    <i class="fa-solid fa-house"></i> 回首頁
+                </a>
+                <span class="form-title">搜尋題庫</span>
+            </div>
+
+            <div class="input-group mb-2">
+                <span class="input-group-text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" id="search-input" class="form-control form-control-lg"
+                    placeholder="輸入關鍵字搜尋題目或選項..." autofocus>
+                <button id="clear-btn" class="btn btn-outline-secondary" type="button">
+                    <i class="fa-solid fa-xmark"></i> 清除
+                </button>
+            </div>
+
+            <div id="type-filters" class="mb-3">
+                <label class="form-title me-2" style="font-size:1em;">題型篩選：</label>
+                <label class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="single" checked> 單選
+                </label>
+                <label class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="multiple" checked> 複選
+                </label>
+                <label class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="truefalse" checked> 是非
+                </label>
+                <label class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="multioption" checked> 下拉選項
+                </label>
+            </div>
+
+            <div id="result-count" class="text-muted mb-3" style="font-size:0.95em;"></div>
+        </div>
+
+        <div id="search-results"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
